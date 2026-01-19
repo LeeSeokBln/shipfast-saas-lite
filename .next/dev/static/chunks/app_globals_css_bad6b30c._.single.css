@@ -455,6 +455,11 @@
     border-width: 1px;
   }
 
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+
   .border-solid {
     --tw-border-style: solid;
     border-style: solid;
@@ -524,6 +529,10 @@
 
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
   }
 
   .py-12 {
@@ -635,6 +644,10 @@
     color: var(--color-zinc-950);
   }
 
+  .underline-offset-4 {
+    text-underline-offset: 4px;
+  }
+
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -667,6 +680,12 @@
       .hover\:bg-black\/\[\.04\]:hover {
         background-color: color-mix(in oklab, var(--color-black) 4%, transparent);
       }
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:underline:hover {
+      text-decoration-line: underline;
     }
   }
 
