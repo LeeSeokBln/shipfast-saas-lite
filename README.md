@@ -96,17 +96,21 @@ The stack is intentionally boring and proven.
 ```
 
 app/
-(public)/
-page.tsx
-pricing/
-(auth)/
-login/
-dashboard/
-lib/
-auth.ts
-db.ts
-prisma/
-schema.prisma
+├─ (public)/
+│  └─ page.tsx          # Landing page
+├─ pricing/
+│  └─ page.tsx          # Pricing page
+├─ (auth)/
+│  └─ login/
+│     └─ page.tsx       # Login page
+├─ dashboard/
+│  └─ page.tsx          # Protected dashboard
+├─ lib/
+│  ├─ auth.ts           # Auth configuration
+│  └─ db.ts             # Database client
+└─ prisma/
+   └─ schema.prisma     # Database schema
+
 
 ````
 
