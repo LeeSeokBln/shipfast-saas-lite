@@ -49,6 +49,7 @@ this repo is for you.
 * ✅ Email-based authentication
 * ✅ Public pages (Landing, Pricing)
 * ✅ Protected dashboard layout
+* ✅ Example SaaS module: API Keys (free limit = 1)
 * ✅ Basic user session handling
 * ✅ Prisma setup (no billing models)
 * ✅ Clean folder structure
@@ -67,6 +68,7 @@ Lite intentionally does **not** include any billing logic.
 | ---------------------------- | :--: | :-: |
 | Auth & app scaffolding       |   ✅  |  ✅  |
 | Example SaaS structure       |   ✅  |  ✅  |
+| API Keys module (free limit) |   ✅  |  ✅  |
 | Stripe subscriptions         |   ❌  |  ✅  |
 | Checkout & billing portal    |   ❌  |  ✅  |
 | Webhooks & idempotency       |   ❌  |  ✅  |
@@ -104,6 +106,7 @@ app/
 │     └─ page.tsx       # Login page
 ├─ dashboard/
 │  └─ page.tsx          # Protected dashboard
+│  └─ keys/page.tsx     # API Keys module (Lite)
 ├─ lib/
 │  ├─ auth.ts           # Auth configuration
 │  └─ db.ts             # Prisma client
@@ -166,6 +169,13 @@ Pro is not “more UI”.
 It’s **billing correctness and production architecture**.
 
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f"> <strong>Get ShipFast SaaS Pro ($199 · one-time payment)</strong> </a>
+
+---
+
+## Lite → Pro conversion trigger (API Keys)
+
+Lite includes an example SaaS feature module (API Keys) with a Free limit (1 key).
+Pro unlocks unlimited keys, rotation, export, and Stripe subscription gating.
 
 ---
 

@@ -38,6 +38,9 @@ export default function RootLayout({
               <a className="rounded-full border border-neutral-200 px-3 py-1.5 text-neutral-700 transition hover:border-neutral-300 hover:text-neutral-950" href="/dashboard">
                 Dashboard
               </a>
+              <a className="text-neutral-700 transition hover:text-neutral-950" href="/login">
+                Login
+              </a>
             </div>
           </nav>
         </header>

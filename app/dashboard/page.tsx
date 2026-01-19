@@ -1,12 +1,34 @@
 import { PRO_BUY_URL } from "@/lib/constants";
+import { requireUser } from "@/lib/guards";
 
-export default function DashboardPage() {
+export default async function DashboardPage() {
+  const user = await requireUser();
+
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
       <h1 className="text-3xl font-bold">Dashboard</h1>
       <p className="mt-2 text-sm text-neutral-600">
-        This is the Lite dashboard scaffold.
+        Welcome, {user.name ?? user.email}. This is your Lite dashboard.
       </p>
+
+      <section className="mt-8 rounded-xl border border-neutral-200 bg-white p-6">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold">API Keys</h2>
+          <span className="rounded-full border bg-white px-3 py-1 text-xs font-semibold text-neutral-700">
+            Free limit: 1 key
+          </span>
+        </div>
+        <p className="mt-2 text-sm text-neutral-700">
+          Create a single API key in Lite. Pro unlocks unlimited keys, rotate,
+          and export.
+        </p>
+        <a
+          href="/dashboard/keys"
+          className="mt-4 inline-block rounded-md border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-neutral-800 transition hover:border-neutral-300 hover:text-neutral-950"
+        >
+          Open API Keys
+        </a>
+      </section>
 
       <section className="mt-8 rounded-xl border p-6 bg-neutral-50">
         <div className="flex items-center justify-between">
