@@ -4,14 +4,14 @@ import { prisma } from "@/lib/db";
 
 export async function POST(
   _req: Request,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   const user = await getSessionUser();
   if (!user) {
     return NextResponse.json({ error: "Authentication required." }, { status: 401 });
   }
 
-  const { id } = await params;
+  const { id } = params;
   if (!id) {
     return NextResponse.json({ error: "Missing key id." }, { status: 400 });
   }
