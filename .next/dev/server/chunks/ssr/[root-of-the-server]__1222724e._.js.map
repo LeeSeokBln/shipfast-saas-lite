@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/iseogbin/dev/shipfast-saas-lite/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <main className=\"mx-auto max-w-4xl px-6 py-12\">\n      <h1 className=\"text-4xl font-bold\">ShipFast SaaS Lite</h1>\n      <p className=\"mt-3 text-neutral-700\">\n        Free Next.js SaaS starter scaffold. Billing is available in Pro.\n      </p>\n\n      <div className=\"mt-6 flex gap-3\">\n        <a className=\"rounded-md border px-4 py-2 text-sm\" href=\"/pricing\">\n          Pricing\n        </a>\n        <a className=\"rounded-md border px-4 py-2 text-sm\" href=\"/dashboard\">\n          Dashboard\n        </a>\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;0BAIrC,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAE,WAAU;wBAAsC,MAAK;kCAAW;;;;;;kCAGnE,8OAAC;wBAAE,WAAU;wBAAsC,MAAK;kCAAa;;;;;;;;;;;;;;;;;;AAM7E"}}]
+}
