@@ -135,6 +135,8 @@ npm install
 
 ### 3. Configure environment variables
 
+Copy env file:
+
 ```bash
 cp .env.example .env
 ```
@@ -144,6 +146,23 @@ Fill in:
 * Database URL
 * Auth secret
 * OAuth credentials (optional)
+
+AUTH_SECRET generator:
+
+```bash
+openssl rand -base64 32
+```
+
+### 3.1 Test the API key (demo endpoint)
+
+After creating your first API key, you can validate it with:
+
+```bash
+curl -X POST http://localhost:3000/api/demo/ping \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+You should get `{ "ok": true }` when the key is valid.
 
 ### 4. Run locally
 
