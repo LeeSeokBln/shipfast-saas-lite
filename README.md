@@ -60,13 +60,15 @@ If you've ever spent days just setting up auth and project structure, this is fo
 
 ## What's NOT included (Pro only)
 
-❌ Stripe subscriptions  
-❌ Checkout & customer portal  
-❌ Webhook handling  
-❌ Subscription status management  
-❌ Feature gating (Free vs Pro)  
-❌ Production billing workflows  
-❌ Deployment & billing docs  
+## Lite vs Pro
+
+| Feature | Lite | Pro |
+|------|:---:|:---:|
+| Auth & UI scaffolding | ✅ | ✅ |
+| Stripe subscriptions | ❌ | ✅ |
+| Checkout & billing portal | ❌ | ✅ |
+| Webhooks & subscription status | ❌ | ✅ |
+| Production billing workflows | ❌ | ✅ |
 
 👉 **All of the above are included in ShipFast SaaS Pro**  
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
@@ -116,7 +118,7 @@ The goal is clarity, not abstraction.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourname/shipfast-saas-lite.git
+git clone https://github.com/LeeSeokBin/shipfast-saas-lite.git
 cd shipfast-saas-lite
 ````
 
