@@ -1,110 +1,104 @@
 # ShipFast SaaS Lite
 
-**Free Next.js SaaS starter for developers who want to ship fast.**
+**Free, open-source Next.js SaaS starter.**
+A clean foundation to start building a real SaaS—without billing complexity.
 
-**Live Demo:** https://shipfast-saas-lite.vercel.app/
+**Live Demo:** [https://shipfast-saas-lite.vercel.app/](https://shipfast-saas-lite.vercel.app/)
 
-👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-  <strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
-</a>
-
-Authentication and UI scaffolding included.  
-Full Stripe subscription billing is available in the Pro version.
-
-
-Authentication and UI scaffolding included.  
-Full Stripe subscription billing is available in the Pro version.
+👉 **Upgrade to Pro (Stripe subscriptions included)** <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f"> <strong>Get ShipFast SaaS Pro ($199 · one-time payment)</strong> </a>
 
 ---
 
-## What is this?
+## What is ShipFast SaaS Lite?
 
-**ShipFast SaaS Lite** is the free, open-source version of **ShipFast SaaS**,  
-a production-focused starter kit designed to help solo developers and early-stage founders launch SaaS products faster.
+**ShipFast SaaS Lite** is the **free and open-source foundation** of ShipFast SaaS.
 
-This Lite version provides:
-- Authentication setup
-- Application structure
-- Dashboard and pricing UI
-- Clean, documented project foundation
+It gives you everything you need to start building a SaaS **before billing**:
 
-If you want **ready-to-use Stripe subscriptions, billing logic, and webhooks**, check out the **Pro version**.
+* Authentication
+* Application structure
+* Dashboard layout
+* Clean, understandable project setup
 
-👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
-</a>
+Lite is intentionally focused on **clarity and correctness**, not features.
 
+If you want **subscription billing, webhooks, and production-ready monetization**, that’s what **Pro** is for.
 
 ---
 
 ## Who is this for?
 
-This project is for developers who:
+ShipFast SaaS Lite is for developers who:
 
-- Are building a SaaS with **Next.js**
-- Want to avoid rewriting auth and UI scaffolding
-- Plan to monetize with **subscriptions**
-- Prefer a clean, understandable codebase over bloated boilerplates
+* Are building a SaaS with **Next.js (App Router)**
+* Want a clean starting point instead of a bloated boilerplate
+* Prefer understanding their codebase over copy-pasting magic
+* Plan to monetize later, but want to build first
 
-If you've ever spent days just setting up auth and project structure, this is for you.
+If you’ve ever thought
 
----
+> “I’ll deal with billing later—right now I just need a solid base”
 
-## What's included in Lite
-
-✅ Next.js App Router setup  
-✅ Email + OAuth authentication  
-✅ Public pages (Landing, Pricing)  
-✅ Protected dashboard layout  
-✅ Basic user session handling  
-✅ Clean folder structure  
-✅ Environment variable examples  
-✅ MIT licensed (Lite only)
+this repo is for you.
 
 ---
 
-## What's NOT included (Pro only)
+## What’s included in Lite
 
-## Lite vs Pro
+* ✅ Next.js App Router setup
+* ✅ Email-based authentication
+* ✅ Public pages (Landing, Pricing)
+* ✅ Protected dashboard layout
+* ✅ Basic user session handling
+* ✅ Prisma setup (no billing models)
+* ✅ Clean folder structure
+* ✅ Environment variable examples
+* ✅ MIT License (Lite only)
 
-| Feature | Lite | Pro |
-|------|:---:|:---:|
-| Auth & UI scaffolding | ✅ | ✅ |
-| Stripe subscriptions | ❌ | ✅ |
-| Checkout & billing portal | ❌ | ✅ |
-| Webhooks & subscription status | ❌ | ✅ |
-| Production billing workflows | ❌ | ✅ |
+Lite is designed to be **forked, extended, and understood**.
 
-👉 **All of the above are included in ShipFast SaaS Pro**  
-👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
-</a>
+---
 
+## What’s NOT included (Pro only)
+
+Lite intentionally does **not** include any billing logic.
+
+| Feature                      | Lite | Pro |
+| ---------------------------- | :--: | :-: |
+| Auth & app scaffolding       |   ✅  |  ✅  |
+| Example SaaS structure       |   ✅  |  ✅  |
+| Stripe subscriptions         |   ❌  |  ✅  |
+| Checkout & billing portal    |   ❌  |  ✅  |
+| Webhooks & idempotency       |   ❌  |  ✅  |
+| Subscription status syncing  |   ❌  |  ✅  |
+| Feature gating (Free / Pro)  |   ❌  |  ✅  |
+| Production billing workflows |   ❌  |  ✅  |
+
+👉 **All billing-related functionality lives in ShipFast SaaS Pro** <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f"> <strong>Get ShipFast SaaS Pro ($199 · one-time payment)</strong> </a>
 
 ---
 
 ## Tech Stack
 
-- **Next.js** (App Router)
-- **TypeScript**
-- **NextAuth**
-- **Prisma + PostgreSQL**
-- **Tailwind CSS**
-- **Vercel-ready**
+* **Next.js** (App Router)
+* **TypeScript**
+* **Auth.js (NextAuth)**
+* **Prisma**
+* **Tailwind CSS**
+* **Vercel-ready**
 
-The stack is intentionally boring and proven.
+No experimental tech. No abstractions for the sake of abstractions.
 
 ---
 
 ## Project Structure
 
-```
-
+```text
 app/
 ├─ (public)/
 │  └─ page.tsx          # Landing page
 ├─ pricing/
-│  └─ page.tsx          # Pricing page
+│  └─ page.tsx          # Pricing page (CTA only)
 ├─ (auth)/
 │  └─ login/
 │     └─ page.tsx       # Login page
@@ -112,24 +106,23 @@ app/
 │  └─ page.tsx          # Protected dashboard
 ├─ lib/
 │  ├─ auth.ts           # Auth configuration
-│  └─ db.ts             # Database client
+│  └─ db.ts             # Prisma client
 └─ prisma/
    └─ schema.prisma     # Database schema
+```
 
-
-````
-
-The goal is clarity, not abstraction.
+The goal is **readability over cleverness**.
 
 ---
 
 ## Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/LeeSeokBin/shipfast-saas-lite.git
 cd shipfast-saas-lite
-````
+```
 
 ### 2. Install dependencies
 
@@ -146,7 +139,7 @@ cp .env.example .env
 Fill in:
 
 * Database URL
-* Auth secrets
+* Auth secret
 * OAuth credentials (optional)
 
 ### 4. Run locally
@@ -155,7 +148,36 @@ Fill in:
 npm run dev
 ```
 
-App will be available at `http://localhost:3000`.
+Open `http://localhost:3000`
+
+---
+
+## When should you upgrade to Pro?
+
+Upgrade to **ShipFast SaaS Pro** when you’re ready to:
+
+* Charge users
+* Add Stripe subscriptions
+* Handle webhooks correctly
+* Gate features by subscription status
+* Avoid billing edge-case bugs
+
+Pro is not “more UI”.
+It’s **billing correctness and production architecture**.
+
+👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f"> <strong>Get ShipFast SaaS Pro ($199 · one-time payment)</strong> </a>
+
+---
+
+## Philosophy
+
+ShipFast is about **removing friction**, not adding features.
+
+* Fewer abstractions
+* Fewer decisions
+* Less setup time
+
+**Build less. Ship faster. Get paid sooner.**
 
 ---
 
@@ -163,62 +185,16 @@ App will be available at `http://localhost:3000`.
 
 This Lite version is released under the **MIT License**.
 
-You are free to:
+You are free to use it, modify it, and learn from it.
 
-* Use it
-* Modify it
-* Learn from it
-
-**Commercial SaaS usage with subscriptions requires the Pro version.**
-
----
-
-## ShipFast SaaS Pro
-
-The Pro version is designed for developers who want to **start charging users immediately**.
-
-### Pro includes:
-
-* Full Stripe subscription integration
-* Webhooks & billing edge cases
-* Feature gating (Free / Pro)
-* Customer portal
-* Production-ready deployment guide
-* Clear billing documentation
-
-👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
-</a>
-
-
----
-
-## Philosophy
-
-ShipFast is not about adding more features.
-It's about removing everything that slows you down.
-
-**Build less. Ship faster. Get paid sooner.**
-
----
-
-## Roadmap
-
-* ❌ Feature requests
-* ❌ Community voting
-* ❌ Endless abstraction
-
-ShipFast focuses on stability and clarity.
+Commercial SaaS usage **with subscriptions** requires the Pro version.
 
 ---
 
 ## Author
 
-Built by SeokBin Lee.  
+Built by **SeokBin Lee**
 Indie developer focused on shipping practical SaaS products.
 
-If this repo helped you, consider starring it ⭐
-It helps others discover the project.
-
-
----
+If this repository helped you, consider starring it ⭐
+It helps other developers find it.
