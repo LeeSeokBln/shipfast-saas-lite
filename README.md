@@ -2,9 +2,14 @@
 
 **Free Next.js SaaS starter for developers who want to ship fast.**
 
+**Live Demo:** https://shipfast-saas-lite.vercel.app/
+
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
- <strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
+  <strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
 </a>
+
+Authentication and UI scaffolding included.  
+Full Stripe subscription billing is available in the Pro version.
 
 
 Authentication and UI scaffolding included.  
