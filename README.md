@@ -1,6 +1,12 @@
 # ShipFast SaaS Lite
 
-**Free Next.js SaaS starter for developers who want to ship fast.**  
+**Free Next.js SaaS starter for developers who want to ship fast.**
+
+👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
+ <strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
+</a>
+
+
 Authentication and UI scaffolding included.  
 Full Stripe subscription billing is available in the Pro version.
 
@@ -19,7 +25,10 @@ This Lite version provides:
 
 If you want **ready-to-use Stripe subscriptions, billing logic, and webhooks**, check out the **Pro version**.
 
-👉 **Get ShipFast SaaS Pro** → [Buy Link]
+👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
+  <strong>Get ShipFast SaaS Pro ($199)</strong>
+</a>
+
 
 ---
 
@@ -60,7 +69,10 @@ If you've ever spent days just setting up auth and project structure, this is fo
 ❌ Deployment & billing docs  
 
 👉 **All of the above are included in ShipFast SaaS Pro**  
-👉 [Get the Pro version here](Buy Link)
+👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
+  <strong>Get ShipFast SaaS Pro ($199)</strong>
+</a>
+
 
 ---
 
@@ -163,7 +175,10 @@ The Pro version is designed for developers who want to **start charging users im
 * Production-ready deployment guide
 * Clear billing documentation
 
-👉 **Get ShipFast SaaS Pro** → [Buy Link]
+👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
+  <strong>Get ShipFast SaaS Pro ($199)</strong>
+</a>
+
 
 ---
 
