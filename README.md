@@ -26,7 +26,7 @@ This Lite version provides:
 If you want **ready-to-use Stripe subscriptions, billing logic, and webhooks**, check out the **Pro version**.
 
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-  <strong>Get ShipFast SaaS Pro ($199)</strong>
+<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
 </a>
 
 
@@ -72,7 +72,7 @@ If you've ever spent days just setting up auth and project structure, this is fo
 
 👉 **All of the above are included in ShipFast SaaS Pro**  
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-  <strong>Get ShipFast SaaS Pro ($199)</strong>
+<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
 </a>
 
 
@@ -178,7 +178,7 @@ The Pro version is designed for developers who want to **start charging users im
 * Clear billing documentation
 
 👉 <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f">
-  <strong>Get ShipFast SaaS Pro ($199)</strong>
+<strong>Get ShipFast SaaS Pro ($199 – one-time payment)</strong>
 </a>
 
 
@@ -205,9 +205,11 @@ ShipFast focuses on stability and clarity.
 
 ## Author
 
-Built by an independent developer for developers who value speed and simplicity.
+Built by SeokBin Lee.  
+Indie developer focused on shipping practical SaaS products.
 
 If this repo helped you, consider starring it ⭐
 It helps others discover the project.
+
 
 ---
