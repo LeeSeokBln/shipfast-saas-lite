@@ -717,8 +717,8 @@
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
-  .bg-\[radial-gradient\(circle_at_top\,rgba\(99\,102\,241\,0\.12\)\,transparent_55\%\)\] {
-    background-image: radial-gradient(circle at top, #6366f11f, #0000 55%);
+  .bg-\[radial-gradient\(circle_at_top\,rgba\(99\,102\,241\,0\.14\)\,transparent_60\%\)\] {
+    background-image: radial-gradient(circle at top, #6366f124, #0000 60%);
   }
 
   .from-indigo-500\/10 {
@@ -1049,8 +1049,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f9fafb;
+    --foreground: #0a0a0a;
   }
 }
 

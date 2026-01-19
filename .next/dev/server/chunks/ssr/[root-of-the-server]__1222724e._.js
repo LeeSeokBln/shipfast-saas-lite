@@ -41,7 +41,7 @@ function Home() {
                                         lineNumber: 7,
                                         columnNumber: 13
                                     }, this),
-                                    "모던 SaaS 스타터"
+                                    "Modern SaaS Starter"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
@@ -51,10 +51,10 @@ function Home() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "mt-6 text-4xl font-semibold tracking-tight text-neutral-950 sm:text-5xl lg:text-6xl",
                                 children: [
-                                    "빠르게 출시하고, 꾸준히 성장하는",
+                                    "Launch faster, keep growing",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "block text-indigo-600",
-                                        children: "SaaS를 위한 기본기"
+                                        children: "with a modern SaaS core"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 12,
@@ -68,7 +68,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-5 text-base text-neutral-600 sm:text-lg",
-                                children: "인증, 결제, 대시보드까지 핵심 구조를 담은 라이트 템플릿. 프로덕트를 더 빠르게 검증하고 업데이트하세요."
+                                children: "A lightweight template that covers auth, billing, and dashboard essentials. Validate and iterate your product in days, not weeks."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 14,
@@ -80,7 +80,7 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         className: "rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white shadow-sm transition hover:bg-neutral-800",
                                         href: "/pricing",
-                                        children: "요금제 보기"
+                                        children: "View Pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 19,
@@ -89,7 +89,7 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         className: "rounded-full border border-neutral-200 px-5 py-2.5 text-sm font-medium text-neutral-700 transition hover:border-neutral-300 hover:text-neutral-900",
                                         href: "/dashboard",
-                                        children: "데모 대시보드"
+                                        children: "Demo Dashboard"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 25,
@@ -106,15 +106,15 @@ function Home() {
                                 children: [
                                     [
                                         "24h",
-                                        "초기 설정"
+                                        "Initial setup"
                                     ],
                                     [
                                         "3x",
-                                        "출시 속도"
+                                        "Ship faster"
                                     ],
                                     [
                                         "99.9%",
-                                        "가용성 목표"
+                                        "Uptime target"
                                     ]
                                 ].map(([value, label])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "rounded-2xl border border-neutral-200 bg-white p-4",
@@ -162,7 +162,7 @@ function Home() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm font-semibold text-neutral-900",
-                                            children: "이번 주 활성 사용자"
+                                            children: "Weekly active users"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 48,
@@ -211,7 +211,7 @@ function Home() {
                                                     lineNumber: 57,
                                                     columnNumber: 17
                                                 }, this),
-                                                "전환율"
+                                                "Conversion"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
@@ -229,7 +229,7 @@ function Home() {
                                                     lineNumber: 61,
                                                     columnNumber: 17
                                                 }, this),
-                                                "신규 가입"
+                                                "New signups"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
@@ -247,7 +247,7 @@ function Home() {
                                                     lineNumber: 65,
                                                     columnNumber: 17
                                                 }, this),
-                                                "유지율"
+                                                "Retention"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
@@ -281,16 +281,16 @@ function Home() {
                 className: "mt-16 grid gap-6 md:grid-cols-3",
                 children: [
                     {
-                        title: "모듈형 아키텍처",
-                        desc: "핵심 기능을 분리해 실험과 확장에 유연합니다."
+                        title: "Modular architecture",
+                        desc: "Keep core features isolated for faster experiments and growth."
                     },
                     {
-                        title: "친숙한 디자인 시스템",
-                        desc: "모던한 토큰 기반 스타일로 일관된 UI를 유지합니다."
+                        title: "Design system ready",
+                        desc: "Token-based styling keeps UI consistent and modern."
                     },
                     {
-                        title: "운영 지표 기본 제공",
-                        desc: "대시보드 기반 지표를 빠르게 확인할 수 있습니다."
+                        title: "Metrics built in",
+                        desc: "Track product performance instantly from the dashboard."
                     }
                 ].map((card)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md",
