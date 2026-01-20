@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { createHash, randomBytes } from "crypto";
+import { DEMO_MODE } from "@/lib/constants";
 import { getSessionUser } from "@/lib/guards";
 import { prisma } from "@/lib/db";
 
@@ -13,6 +14,12 @@ function generateKey() {
 }
 
 export async function GET() {
+  if (DEMO_MODE) {
+    return NextResponse.json(
+      { error: "Demo mode: API is disabled. Run locally to test." },
+      { status: 403 }
+    );
+  }
   const user = await getSessionUser();
   if (!user) {
     return NextResponse.json({ error: "Authentication required." }, { status: 401 });
@@ -34,6 +41,12 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  if (DEMO_MODE) {
+    return NextResponse.json(
+      { error: "Demo mode: API is disabled. Run locally to test." },
+      { status: 403 }
+    );
+  }
   const user = await getSessionUser();
   if (!user) {
     return NextResponse.json({ error: "Authentication required." }, { status: 401 });

@@ -3,7 +3,7 @@
 **Free, open-source Next.js SaaS starter.**
 A clean foundation to start building a real SaaS—without billing complexity.
 
-**Live Demo:** [https://shipfast-saas-lite.vercel.app/](https://shipfast-saas-lite.vercel.app/)
+**Live Demo:** UI-only preview (login is disabled). To test auth + API keys, run locally.
 
 👉 **Upgrade to Pro (Stripe subscriptions included)** <a href="https://shipfast-app.lemonsqueezy.com/checkout/buy/891c501e-967a-47cb-b89f-10f2d17d727f"> <strong>Get ShipFast SaaS Pro ($199 · one-time payment)</strong> </a>
 
